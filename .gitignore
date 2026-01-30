@@ -1,6 +1,6 @@
 # Compiled source #
 ###################
-*.gitignore
+.vscode/
 *.com
 *.class
 *.dll
