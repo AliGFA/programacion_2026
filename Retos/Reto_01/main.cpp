@@ -65,7 +65,7 @@ int main() {
             
 
             Coche nuevoCoche(marca, modelo, año, matricula, numeroPuertas);
-            std::cout << "Coche agregado al catalogo." << std::endl;
+            std::cout << "Coche agregado" << std::endl;
         }
         else if (tipoVehiculo == 2) {
             std::string marca, modelo, matricula, tipoRemolque;
@@ -86,7 +86,7 @@ int main() {
             std::cin >> matricula;
 
             Camion nuevoCamion(marca, modelo, año, matricula, capacidadCarga, tipoRemolque);
-            std::cout << "Camión agregado al catalogo." << std::endl;
+            std::cout << "Camión agregado" << std::endl;
         }
         else if (tipoVehiculo == 3) {
             std::string marca, modelo, matricula, tipoManillar;
@@ -107,7 +107,7 @@ int main() {
             std::cin >> matricula;
 
             Moto nuevaMoto(marca, modelo, año, matricula, tipoManillar, cilindrada);
-            std::cout << "Moto agregada al catalogo." << std::endl;
+            std::cout << "Moto agregada" << std::endl;
         }
         else if (tipoVehiculo == 4) {
             std::string marca, modelo, matricula;
@@ -127,10 +127,15 @@ int main() {
             std::cin >> matricula;
 
             Autobus nuevoAutobus(marca, modelo, año, matricula, numeroPasajeros, numeroAsientos);
-            std::cout << "Autobús agregado al catalogo." << std::endl;
+            std::cout << "Autobús agregado" << std::endl;
         }
     else if (opcion == 2) {
-        std::cout << "" << std::endl;
+        std::cout << "Introduzca la matricula del vehiculo que busca" << std::endl;
+        std::string matricula;
+        std::cin >> matricula;
+        std::cout << "Mostrando informacion del vehiculo" << std::endl;
+
+        
     }
     else if (opcion == 3) {
         std::cout << "" << std::endl;
