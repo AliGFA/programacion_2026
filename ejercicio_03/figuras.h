@@ -1,5 +1,5 @@
-#ifndef FIGURAS.H
-#define FIGURAS.H
+#ifndef FIGURAS_H
+#define FIGURAS_H
 
 #include <string>
 
