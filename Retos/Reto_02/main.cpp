@@ -2,10 +2,11 @@
 #include <string>
 #include <cstdlib>
 
+
 int main() {
     std::cout << "Chat con Gemini" << std::endl;
 
-    std::string apiKey = "AIzaSyCT0khsSZFwU6WEwBO7uQujuHyw547Eg7M"; 
+    std::string apiKey = "Aqui"; 
     std::string url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + apiKey;
 
     while (true) {
@@ -21,9 +22,9 @@ int main() {
         std::cout << "\nEnviando mensaje. Esperando respuesta.\n" << std::endl;
 
         std::string comando = "curl -s -H \"Content-Type: application/json\" -X POST \"" + url + "\" ";
-        comando += "-d \"{\\\"contents\\\": [{\\\"parts\\\":[{\\\"text\\\": \\\"" + Pregunta + "\\\"}]}]}\" | powershell -NoProfile -Command \"$input | ConvertFrom-Json | ForEach-Object { $_.candidates[0].content.parts[0].text }\"";
-
+        comando += "-d \"{\\\"contents\\\": [{\\\"parts\\\":[{\\\"text\\\": \\\"" + Pregunta + "\\\"}]}]}\"";
         system(comando.c_str());
+
     }
 
     return 0;
