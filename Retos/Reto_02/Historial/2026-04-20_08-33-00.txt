@@ -1,0 +1,11 @@
+[ENVIADO ] 2026-04-20 08:33:03 | Hola
+[RECIBIDO] 2026-04-20 08:33:05 | ¡Hola! ¿En qué puedo ayudarte hoy?
+----------------------------------------
+[ENVIADO ] 2026-04-20 08:33:18 | Cuales son los 3 animales mas grandes del mundo
+[RECIBIDO] 2026-04-20 08:33:24 | *Modelo ocupado, intenta de nuevo mas tarde*
+----------------------------------------
+[ENVIADO ] 2026-04-20 08:33:29 | Cuales son los 3 animales mas grandes del mundo?
+[RECIBIDO] 2026-04-20 08:33:31 | (No puse una situacion donde la cuota del api fuera excedida,
+                                  pero cuandoe sta vacia la respuesta en el historial es por eso.
+                                  Este texto es editado manualmente.)
+----------------------------------------

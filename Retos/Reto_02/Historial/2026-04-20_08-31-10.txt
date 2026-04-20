@@ -1,0 +1,9 @@
+[ENVIADO ] 2026-04-20 08:31:13 | Hola
+[RECIBIDO] 2026-04-20 08:31:15 | *Modelo ocupado, intenta de nuevo mas tarde*
+----------------------------------------
+[ENVIADO ] 2026-04-20 08:31:39 | El modelo siempre esta ocupado en clases
+[RECIBIDO] 2026-04-20 08:31:41 | 
+----------------------------------------
+[ENVIADO ] 2026-04-20 08:32:07 | Se excedio mi cuota y ya no quiere responder
+[RECIBIDO] 2026-04-20 08:32:11 | *Modelo ocupado, intenta de nuevo mas tarde*
+----------------------------------------
